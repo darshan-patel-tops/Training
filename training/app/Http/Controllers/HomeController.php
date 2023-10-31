@@ -9,6 +9,8 @@ class HomeController extends Controller
     public function index()
     {
             // dd("from controller");
-        return view('nirav_sir');
+        // return view('nirav_sir');
+        // return view('layouts.app');
+        return view('frontend.index');
     }
 }
